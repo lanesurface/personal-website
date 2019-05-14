@@ -20,19 +20,61 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to bottom right,
-                                    lavender,
-                                    magenta,
-                                    indigo);
-  height: 60vh;
-  border-bottom: 5px solid violet;
+  background: url('../images/nebula.jpg') no-repeat
+                                          center
+                                          center
+                                          fixed;
+  background-size: cover;
+  height: 100vh;
+  border-bottom: 5px solid lightsalmon;
+}
+
+#header-links {
+  text-align: center;
+  margin-top: 1em;
 }
 
 .header-link {
   text-transform: uppercase;
-  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(255,
+             255,
+             255,
+             0.85);
   margin: auto 0.6em;
-  float: right;
+}
+
+#header-photo {
+  border: 5px solid white;
+  border-radius: 3%;
+  vertical-align: middle;
+}
+
+#header-info {
+  width: 40%;
+  position: absolute;
+  bottom: 50vh;
+  left: 3em;
+}
+
+.header-text {
+  width: 60%;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.header-special {
+  color: #ffb167;
+  font-size: 3em;
+}
+
+.special-sub {
+  font-size: 1.1em;
+  font-style: italic;
+  color: #FFFFFF;
 }
 
 #content {
