@@ -1,3 +1,9 @@
+html {
+  /* The background for the header is set here instead, since setting it in the
+     header element itself seems to create padding issues. */
+  background-color: orangered;
+}
+
 body {
   /* Default system font stack. */
   font-family: -apple-system,
@@ -20,11 +26,6 @@ body {
 }
 
 header {
-  background: url('../images/nebula.jpg') no-repeat
-                                          center
-                                          center
-                                          fixed;
-  background-size: cover;
   height: 100vh;
   border-bottom: 5px solid lightsalmon;
 }
@@ -67,14 +68,38 @@ header {
 }
 
 .header-special {
-  color: #ffb167;
   font-size: 3em;
+  line-height: 1em;
+  background-image: linear-gradient(to right,
+                                    dodgerblue,
+                                    powderblue,
+                                    dodgerblue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .special-sub {
   font-size: 1.1em;
   font-style: italic;
   color: #FFFFFF;
+  padding-bottom: 1em;
+  border-bottom: 5px solid white;
+}
+
+#social-media-links {
+  /* CENTERING??? */
+  margin: 0 auto;
+}
+
+.social-media-link {
+  display: inline-block;
+  margin: 0 0.2em;
+}
+
+#page-body {
+  background-color: white;
+  padding: 1em;
 }
 
 #content {
@@ -82,14 +107,24 @@ header {
   margin: auto auto;
 }
 
+#content a {
+  color: black;
+  transition: color 0.5s;
+}
+
+#content a:hover {
+  color: purple;
+}
+
 /* Text which should stand out from the page, but retain some level of
    consistency with that of the body text. */
 .important-body-text {
-  font-size: 1.5em;
-  background-image: linear-gradient(to right,
-                                    firebrick,
-                                    orangered,
-                                    orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 1.2em;
+  color: brown;
+}
+
+footer {
+  background-color: #CCCCCC;
+  text-align: center;
+  font-size: 0.8em;
 }
