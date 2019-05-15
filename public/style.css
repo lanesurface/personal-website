@@ -124,10 +124,10 @@ header {
 
 #header-details {
   position: absolute;
-  right: 3em;
+  right: 0;
   bottom: 50vh;
-  transform: translateY(50%);
-  -webkit-transform: translateY(50%);
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
 }
 
 #header-details > ul {
