@@ -54,9 +54,9 @@ header {
   text-decoration: none;
   font-weight: 700;
   color: rgba(255,
-             255,
-             255,
-             0.85);
+              255,
+              255,
+              0.85);
   margin: auto 0.6em;
   transition: border 300ms;
 }
@@ -120,6 +120,30 @@ header {
 .link-image:hover {
   transform: scale(1.25, 1.25);
   -webkit-transform: scale(1.25, 1.25);
+}
+
+#header-details {
+  position: absolute;
+  right: 3em;
+  bottom: 50vh;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+}
+
+#header-details > ul {
+  list-style: none;
+}
+
+#header-details ul li {
+  margin: 0.6em auto;
+  color: white;
+  font-weight: 600;
+}
+
+.bullet-icon {
+  width: 32px;
+  margin-right: 0.6em;
+  vertical-align: middle;
 }
 
 #page-body {
