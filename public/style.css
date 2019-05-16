@@ -102,12 +102,7 @@ header {
   border-bottom: 5px solid white;
 }
 
-#social-media-links {
-  /* CENTERING??? */
-  margin: 0 auto;
-}
-
-.social-media-link {
+#social-media-links > a {
   display: inline-block;
   margin: 0 0.2em;
 }
@@ -165,10 +160,10 @@ header {
   color: purple;
 }
 
-/* Text which should stand out from the page, but retain some level of
-   consistency with that of the body text. */
 .important-body-text {
-  font-size: 1.2em;
+  font-size: 2.5em;
+  line-height: 1em;
+  vertical-align:middle;
   color: brown;
 }
 
