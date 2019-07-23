@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lane_surface
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lwsurface.net
+  * I am lane_surface (https://keybase.io/lane_surface) on keybase.
+  * I have a public key ASCct4u9Ro8s_2UZ8XW8ICj0yDbNKZD9H9jsgr3TAmK7oQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209cb78bbd468f2cff6519f175bc2028f4c836cd2990fd1fd8ec82bdd30262bba10a",
+      "host": "keybase.io",
+      "kid": "01209cb78bbd468f2cff6519f175bc2028f4c836cd2990fd1fd8ec82bdd30262bba10a",
+      "uid": "8bbfc96929f4cad217a3cf80a8938319",
+      "username": "lane_surface"
+    },
+    "merkle_root": {
+      "ctime": 1563907312,
+      "hash": "21637984e419c333a81e15268da2ba256b26a563538df7905c45f0034bd384d20f104d49b996b4d8adaa3a03d83e3c5dce13528f029992e32b7aaf7cfdec3502",
+      "hash_meta": "ce7eb287e782872757752d55380d709c86823c0ef5fd79529a586fc9712db910",
+      "seqno": 5835372
+    },
+    "service": {
+      "entropy": "NgV90sWJvkyrASGLGwvTyAO9",
+      "hostname": "lwsurface.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563907324,
+  "expire_in": 504576000,
+  "prev": "8b710868252bf3610295e64cd44e7cd2865e9d54db2b9c0f2996ef255069ade6",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnLeLvUaPLP9lGfF1vCAo9Mg2zSmQ/R/Y7IK90wJiu6EKp3BheWxvYWTESpcCBcQgi3EIaCUr82ECleZM1E580oZenVTbK5wPKZbvJVBprebEIPNDnw39LKvCkvCJ8z33WM8N+ZKmUfSn34KR8Tssk52cAgHCo3NpZ8RAaDwSmiMPIMei8P2FaQzr6qatls6XswNRdlLgeM922fPynmCzNjmfK6ieurgPKjoUeZEzZwbPHJYJ8qshYsugDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINDuxIPprHHSwF0pB0POyiVIRyJWE+k8/fVny6Tc8CiGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lane_surface
+
+==================================================================

@@ -49,6 +49,10 @@ header {
   margin: auto;
 }
 
+@media only screen and (min-width: 1050px) {
+  
+}
+
 .header-link {
   text-transform: uppercase;
   text-decoration: none;
