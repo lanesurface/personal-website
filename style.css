@@ -37,7 +37,13 @@ body {
 header {
   z-index: 1;
   height: 100vh;
-  border-bottom: 5px solid lightsalmon;
+  /* border-bottom: 5px solid lightsalmon; */
+}
+
+hr {
+  height: 5px;
+  background-color: lightsalmon;
+  margin: 0;
 }
 
 #header-links {
@@ -50,7 +56,7 @@ header {
 }
 
 @media only screen and (min-width: 1050px) {
-  
+  /* TODO: Add mobile-friendly layout. */
 }
 
 .header-link {
@@ -101,7 +107,7 @@ header {
 .special-sub {
   font-size: 1.1em;
   font-style: italic;
-  color: #FFFFFF;
+  color: white;
   padding-bottom: 1em;
   border-bottom: 5px solid white;
 }
@@ -172,15 +178,56 @@ header {
 }
 
 footer {
-  background-color: #CCCCCC;
-  text-align: center;
+  /* background-color: black; */
+  /* text-align: center; */
   font-size: 0.8em;
 }
 
-footer div {
+/* footer #cc {
+  position: absolute;
+  left: 0;
+  padding: 1em;
+  width: 50%;
+  color: #ccc;
+  display: inline-block;
+}
+
+footer #links {
+  background-color: black;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  padding: 1em;
+  text-align: left;
+  color: #ccc;
+  display: inline-block;
+}
+
+footer #links > a {
+  display: block;
+} */
+
+footer > table {
+  width: 100%;
+  background-color: #202020;
+  color: #ccc;
+}
+
+footer > table td {
+  width: 50%;
+  padding: 1em;
+}
+
+footer > table td:first-child {
+  border-right: 2px dashed white;
+}
+
+footer > table td a.soc {
+  display: block;
+}
+
+/* footer div {
   width: 80%;
   margin: 0 auto;
-
-}
-footer p { margin: 0; }
-footer a { color: black; }
+} */
+footer a { color: white; }
